@@ -14,6 +14,21 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
+print('===== Temperature Converter =====')
+print()
+print('  1. Convert from Celsius to Fahrenheit')
+print('  2. Convert from Fahrenheit to Celsius')
+print()
+c_to_f = int(input('Please choose from the above menu: '))
+temp = int(input('Enter a temperature to convert: '))
+if c_to_f == 1:
+    fnewtemp = temp * (9/5) + 32
+    print()
+    print(f'{temp} degrees Celsius is {fnewtemp} degrees Fahrenheit.')
+elif c_to_f == 2:
+    cnewtemp = (temp - 32 ) * 5/9
+    print()
+    print(f'{temp} degrees Fahrenheit is {cnewtemp} degrees Celsius')
 
 
 
@@ -92,7 +107,7 @@ Enter a temperature to convert: -40
 '''
 
 1. What is one lesson you learned in this lab?
-
+making sure variables are seperated and named properly
 
 
 
